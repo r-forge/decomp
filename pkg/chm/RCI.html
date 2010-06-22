@@ -1,0 +1,156 @@
+<html><head><title>A function to calculate the relative concentration index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>RCI(decomp)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   RCI">
+<param name="keyword" value="R:   plot.hci">
+<param name="keyword" value="R:   confint.hci">
+<param name="keyword" value="R:   default.hci">
+<param name="keyword" value="R:   print.hci">
+<param name="keyword" value="R:   summary.hci">
+<param name="keyword" value="R:   concentrationIndex">
+<param name="keyword" value="R:   varianceConcentrationIndex">
+<param name="keyword" value=" A function to calculate the relative concentration index">
+</object>
+
+
+<h2>A function to calculate the relative concentration index</h2>
+
+
+<h3>Description</h3>
+
+<p>
+This function calculates the relative concentration index due to Kakwani <EM>et al</EM>.
+It returns an object of class <code>hci</code> for which confidence intervals, summaries and 
+plots are defined.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+RCI(x, y, wt = NULL)
+concentrationIndex(object)
+## S3 method for class 'hci':
+plot(x, ...)
+## S3 method for class 'hci':
+print(x, ...)
+## S3 method for class 'hci':
+summary(object, ...)
+## S3 method for class 'hci':
+confint(object, parm = NULL, level = 0.95, ...)
+varianceConcentrationIndex(object)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+For <code>RCI</code>, a numeric variable containing the health measure. For the <code>print</code> and <code>plot</code> methods: an object of class <code>hci</code>.
+</td></tr>
+<tr valign="top"><td><code>y</code></td>
+<td>
+a numeric variable containing the wealth measure.
+</td></tr>
+<tr valign="top"><td><code>wt</code></td>
+<td>
+a numeric variable containing the sample weights. Defaults to <code>NULL</code>, which is equal to a constant sample weight for all cases.
+</td></tr>
+<tr valign="top"><td><code>object</code></td>
+<td>
+an object of class <code>hci</code> - the result of a call to <code>RCI</code>.
+</td></tr>
+<tr valign="top"><td><code>parm</code></td>
+<td>
+always set to <code>NULL</code>; provided for consistency with the generic <code>confint</code>.  
+</td></tr>
+<tr valign="top"><td><code>level</code></td>
+<td>
+confidence level at which confidence intervals should be calculated. Defaults to 0.95.
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+arguments to pass on to <code>plot</code>, <code>print</code> and <code>summary</code>.
+</td></tr>
+</table>
+
+<h3>Details</h3>
+
+<p>
+<code>RCI</code> returns the relative concentration index due to Kakwani <EM>et al</EM> in an object of class <code>hci</code>.
+A number of extractor functions have been defined. The <code>plot</code> function returns a plot of the Lorenz curve.
+The relative concentration index is defined as twice the surface between this curve and the diagonal. <code>RCI</code> does
+not check whether the health measure has the same sign for all cases. If this is not true the relative concentration
+index is not bounded between [-1,+1]. It is up to the user to handle this, e.g. using the <code><a href="correctSign.html">correctSign</a></code> function.
+</p>
+
+
+<h3>Value</h3>
+
+<p>
+For <code>RCI</code>, an object of class <code>hci</code>; this is a list containing the following components:
+</p>
+<table summary="R argblock">
+<tr valign="top"><td><code>concentrationIndex</code></td>
+<td>
+relative concentration index</td></tr>
+<tr valign="top"><td><code>varC</code></td>
+<td>
+variance of the concentration index</td></tr>
+<tr valign="top"><td><code>fractionalRank</code></td>
+<td>
+weighted fractional rank for each case</td></tr>
+<tr valign="top"><td><code>outcome</code></td>
+<td>
+health measure for each case</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+number of cases</td></tr>
+<tr valign="top"><td><code>call</code></td>
+<td>
+the original call to <code>RCI</code></td></tr>
+</table>
+<p>
+
+For <code>plot.hci</code>, a concentration plot.</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Peter Konings and Niko Speybroeck
+</p>
+
+
+<h3>References</h3>
+
+<p>
+Kakwani <EM>et al.</EM>
+</p>
+
+
+<h3>See Also</h3>
+
+<p>
+<code><a href="correctSign.html">correctSign</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(kenya)
+example &lt;- RCI(x = kenya$wealth, y = kenya$stunting)
+plot(example)
+summary(example)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>decomp</em> version 0.3 <a href="00Index.html">Index</a>]</div>
+
+</body></html>

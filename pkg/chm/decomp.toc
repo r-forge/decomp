@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HEAD></HEAD><HTML><BODY>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package decomp:  Contents">
+<param name="Local" value="00Index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package decomp:  R objects">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="decomp-package">
+<param name="Local" value="decomp-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="concentrationIndex">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="confint.hci">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="contribution">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="contribution.coxph">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="contribution.glm">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="contribution.lm">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="contribution.svyglm">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="correctedValue">
+<param name="Local" value="correctSign.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="correctSign">
+<param name="Local" value="correctSign.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="decomp">
+<param name="Local" value="decomp-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="decomposition">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="default.decomposition">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="default.hci">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="isCorrected">
+<param name="Local" value="correctSign.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="kenya">
+<param name="Local" value="kenya.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="plot.decomposition">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="plot.hci">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="print.decomposition">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="print.hci">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rank.wt">
+<param name="Local" value="rank.wt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="RCI">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="summary.decomposition">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="summary.hci">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="varianceConcentrationIndex">
+<param name="Local" value="RCI.html">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package decomp:  Titles">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="A function to calculate the relative concentration index">
+<param name="Local" value="RCI.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="A package to calculate and decompose health inequalities">
+<param name="Local" value="decomp-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Corrects negative values in the health variable">
+<param name="Local" value="correctSign.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Functions to decompose the Relative Concentration Index into its components">
+<param name="Local" value="contribution.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Ranks a numeric variable taking weights into account. Mimics a Stata function">
+<param name="Local" value="rank.wt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Sample dataset">
+<param name="Local" value="kenya.html">
+</OBJECT>
+</UL>
+</UL>
+</BODY></HTML>
