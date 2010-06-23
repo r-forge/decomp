@@ -8,6 +8,6 @@ Maintainer: Peter Konings <peter.konings@esat.kuleuven.be>
 Description: This package contains functions to calculate the relative concentration index,
 	plot Lorenz curves and decompose inequality using (generalized) linear models and survival models while
 	taking survey design into account.
-License: GPL 2.0 or later
+License: GPL (>= 2.0)
 LazyLoad: yes
 Suggests: gplots
